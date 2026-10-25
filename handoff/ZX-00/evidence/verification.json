@@ -1,0 +1,51 @@
+{
+  "task_id": "ZX-00",
+  "checked_at": "2026-10-25T10:25:49.8890255+08:00",
+  "category": "documentation_delivery_integrity_not_application_tests",
+  "checks": [
+    {
+      "id": "delivery-files",
+      "passed": true,
+      "detail": "required=14; missing="
+    },
+    {
+      "id": "original-unchanged",
+      "passed": true,
+      "detail": "Original planning file size and SHA-256 compared with initial snapshot."
+    },
+    {
+      "id": "task-branch",
+      "passed": true,
+      "detail": "feat/ZX-00-inventory"
+    },
+    {
+      "id": "baseline-ancestor",
+      "passed": true,
+      "detail": "Task HEAD descends from the remote initialization commit."
+    },
+    {
+      "id": "syntax-collect.ps1",
+      "passed": true,
+      "detail": "parse_errors=0"
+    },
+    {
+      "id": "syntax-verify.ps1",
+      "passed": true,
+      "detail": "parse_errors=0"
+    },
+    {
+      "id": "private-path-exclusions",
+      "passed": true,
+      "detail": "checked=8; not_ignored="
+    },
+    {
+      "id": "limited-sensitive-pattern-scan",
+      "passed": true,
+      "detail": "files=15; findings=; not a complete security audit"
+    }
+  ],
+  "check_count": 8,
+  "failed": 0,
+  "application_tests_executed": 0,
+  "application_test_failures": null
+}
