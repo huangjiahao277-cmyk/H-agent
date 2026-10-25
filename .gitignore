@@ -1,0 +1,33 @@
+# Secrets and private runtime data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+secrets/
+private/
+backups/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated dependencies/builds
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+.expo/
+dist/
+build/
+*.apk
+*.aab
+
+# Machine-specific ZX-00 evidence stays local
+handoff/ZX-00/evidence/baseline/
+handoff/ZX-00/evidence/pre-bootstrap/
+handoff/ZX-00/evidence/runs/
+handoff/ZX-00/evidence/local-*.json
+handoff/ZX-00/evidence/local-*.txt
